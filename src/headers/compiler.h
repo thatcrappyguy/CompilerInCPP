@@ -4,17 +4,12 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-unordered_map<char, pair<string,string>> token;
-
-
 class Tokens{
     public:
         string TYPE;
         string WORK;
-        char value;
+        string value;
  };
 
-string stanerr(Tokens T);
-void iter_through_text(const string & text);
 
 #endif
