@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Saikat Ghorai</h1>
 <h3 align="center">Nothing just personal files</h3>
 
-- 🔭 I’m currently working on **Bash**
+- 🔭 I’m currently working on a **Compiler in CPP**
 
-- 🌱 I’m currently learning **Bash**
+- 🌱 I’m currently learning **C++**
 
 - ⚡ Fun fact **I am a human**
 
