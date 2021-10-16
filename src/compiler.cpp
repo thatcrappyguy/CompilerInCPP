@@ -1,14 +1,4 @@
-#include<bits/stdc++.h>
-using namespace std;
-unordered_map<char, pair<string,string>> token;
-
-
-class Tokens{
-    public:
-        string TYPE;
-        string WORK;
-        char value;
- };
+#include "headers/compiler.h"
 
 string stanerr(Tokens T){
     string dum = ""; dum += T.value;
@@ -30,14 +20,15 @@ void iter_through_text(const string & text){
 }
 
 
-int main(){
+int main(int argc, char* argv[]){
 
     token['+'] = make_pair("T_OPERATOR", "ADDITION");
     token['-'] = make_pair("T_OPERATOR", "SUBTRACTION");
     token['*'] = make_pair("T_OPERATOR", "MULTIPLICATION");
     token['/'] = make_pair("T_OPERATOR", "DIVISION");
-    string dummy = "+-*/+*/*";
-
-    iter_through_text(dummy);
-
+    
+    if(argc == 1) cout << "No args passed\n";
+    else{
+    iter_through_text(argv[1]);
+    }
 }
